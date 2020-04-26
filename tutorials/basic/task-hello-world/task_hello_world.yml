@@ -6,4 +6,5 @@ image_resource:
   source: {repository: ubuntu}
 
 run:
-  path: uname
+  path: sleep
+  args: ["120"]
